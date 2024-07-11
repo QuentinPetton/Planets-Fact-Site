@@ -5,11 +5,8 @@ const port = 3000;
 
 //activer ejs
 app.set("view engine", "ejs");
-
-
+app.use(express.static(`./public`));
 app.use(homeRouter);
-
-
 
 
 app.listen(port, () => {

@@ -1,0 +1,20 @@
+:root{
+    --white-color: #FFFFFF;
+    --bg-color: #070724;
+    --dark-grey-color: #38384F;
+    --light-grey-color: #838391;
+    --turquoise-color: #419EBB;
+    --yellow-color: #EDA249;
+    --purple-color: #6f2ed6;
+    --light-red-color: #D14C32;
+    --heavy-red-color: #D83A34;
+    --orange-color: #CD5120;
+    --green-color: #1ec2a4;
+    --blue-color: #2d68f0;
+}
+
+html{
+   
+  background-color: var(--bg-color);
+  background-image: url(./assets/background-stars.svg);
+}
