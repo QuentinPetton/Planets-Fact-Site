@@ -1,4 +1,4 @@
-const data = require (`${__dirname}/../data/data.json`);
+const data = require (`../data/data.json`);
 
 
 const homePage = (req,res) => {
