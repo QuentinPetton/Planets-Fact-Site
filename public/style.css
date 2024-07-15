@@ -48,6 +48,11 @@ nav > ul > li >a {
     font-size: 0.7rem;
 }
 
+a {
+    color: var(--white-color);
+}
+
+
 h1{
     font-family: "Antonio", sans-serif;
     font-size: 1.75rem;
@@ -56,6 +61,7 @@ h1{
 
 h2{
     font-size: 5rem;
+    text-transform: uppercase;
 }
 
 main {
@@ -104,7 +110,7 @@ dl {
     grid-column: span 5;
     width: 100%;
     gap: 5rem;
-    justify-content: center; 
+    justify-content: space-around; 
 }
 dl > div {
     border: var(--light-grey-color) solid 1px;
