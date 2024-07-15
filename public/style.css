@@ -68,7 +68,7 @@ main {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 7%;
     margin-right: 7%;
     gap: 1rem;
@@ -98,7 +98,7 @@ img{
 .button-infos > span{
     padding: 1rem;
     border: var(--light-grey-color) solid 1px;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .button-infos > span:hover{
