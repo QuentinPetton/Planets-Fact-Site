@@ -4,19 +4,15 @@
         <main>
 
             <div class="container-img">
-            <img src="/assets/planet-mercury.svg" alt="">
+            <img src="<%= planet.images.internal %>" alt="">
             </div>
 
             <div class="container-infos">
-                <h2>Mercury</h2>
+                <h2><%= planet.name %></h2>
 
                 <p>
-
-                    
-                    Mercury is the smallest planet in the Solar System and the closest
-                    to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
-                    shortest of all the Sun's planets. Mercury is one of four terrestrial
-                    planets in the Solar System, and is a rocky body like Earth.</p>
+                    <%= planet.overview.content %>
+                    </p>
 
                 <span>
                     Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Mercury_(planet) -->
@@ -33,19 +29,19 @@
             <dl>
                 <div>
                     <dt>Rotation time</dt>
-                    <dd>58.6 days</dd>
+                    <dd><%= planet.rotation %></dd>
                 </div>
                 <div>
                     <dt>Revolution time</dt>
-                    <dd>87.97 days</dd>
+                    <dd><%= planet.revolution %></dd>
                 </div>
                 <div>
                     <dt>Radius</dt>
-                    <dd>2,439.7 km</dd>
+                    <dd><%= planet.radius %></dd>
                 </div>
                 <div>
                     <dt>Average Temp.</dt>
-                    <dd>430°C</dd>
+                    <dd><%= planet.temperature %></dd>
                 </div>
             </dl>
 
