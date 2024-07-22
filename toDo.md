@@ -1,7 +1,8 @@
 ## CSS
- [ ] Active coloré suivant page dans navbare
+ [ ] Active coloré suivant page dans navbare ainsi que le texte white total
  [X] Active sur section overview/internal structure/surface geology suivant page dans navbar avec couleur différente entre active et hover
- [ ] Suivant vue overview, internal structure ou surface gology, afficher image correspondante
+ [ ] Suivant vue overview, internal structure ou surface gology, afficher image correspondante, texte et lien wiki
+ 
 
  ## Responsive
 
@@ -12,7 +13,7 @@
   ## HTML
 
   [ ] Redirection page accueil quand click sur logo The Planet
-  [ ] Gérer non scroll et bien fullscreen suivant support
+  [x ] Gérer non scroll et bien fullscreen suivant support
 
   ## Data
 

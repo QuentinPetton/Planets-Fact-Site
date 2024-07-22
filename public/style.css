@@ -18,16 +18,19 @@ html{
   background-color: var(--bg-color);
   background-image: url(./assets/background-stars.svg);
   color: var(--white-color);
-  height: 100vh;
+  height: 100dvh;
   font-family: "Antonio", sans-serif;
 }
 
+body{
+    height: 100dvh;
+}
 
 
 nav{
     display: flex;
     border-bottom: var(--light-grey-color) solid 1px;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 nav > ul {
@@ -49,18 +52,28 @@ nav > ul > li >a {
     font-size: 0.7rem;
 }
 
+li {
+    padding-top: 0.8rem;
+}
+
+li:active {
+    border-top: var(--turquoise-color) solid 3px;
+}
+
 a {
-    color: var(--white-color);
+    color: rgba(255, 255, 255, 0.753);
     text-decoration: none;
 }
 
+a:active {
+    color: var(--white-color);
+}
 
 h1{
     font-family: "Antonio", sans-serif;
     font-size: 1.75rem;
     width: 100%;
 }
-
 
 h2{
     font-size: 5rem;
@@ -71,7 +84,7 @@ main {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 10rem;
+    margin-top: 5%;
     margin-left: 7%;
     margin-right: 7%;
     gap: 1rem;
@@ -79,8 +92,23 @@ main {
 p{
     font-family: 'Spartan', sans-serif;
   font-weight: 300;
+   
+}
 
-    
+.wiki {
+    color:var(--dark-grey-color);
+    text-transform: capitalize;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.9rem;
+}
+
+.wiki > a {
+    text-decoration: underline;
+    color: var(--light-grey-color);
+    text-transform: capitalize;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .container-img {
@@ -91,7 +119,7 @@ p{
 }
 
 img{
-    width: 60%;
+    max-width: 60%;
 }
 .container-infos{
     grid-column: span 2;
@@ -106,8 +134,6 @@ img{
     flex-direction: column;
     text-transform: uppercase;
 }
-
-
 
 button {
     font-family: 'Spartan', sans-serif;
@@ -129,15 +155,12 @@ button:active{
     background-color: var(--purple-color);
 }
 
-
-
 dl {
     display: flex;
     grid-column: span 5;
     gap: 1rem;
     justify-content: space-around; 
     margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 dl > div {
     border: var(--light-grey-color) solid 1px;
