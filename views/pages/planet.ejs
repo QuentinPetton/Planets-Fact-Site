@@ -8,21 +8,18 @@
             </div>
 
             <div class="container-infos">
+                <div class="description">
                 <h2><%= planet.name %></h2>
+                <p><%= planet.overview.content %></p>
 
-                <p>
-                    <%= planet.overview.content %>
-                    </p>
-
-                <span class =wiki>  
-                    Source : <a href="<%= planet.overview.source %>">Wikipedia</a> 
-                </span>
-
+                <span class =wiki> Source : <a href="<%= planet.overview.source %>">Wikipedia</a> </span>
+                </div>
                 <div class=button-infos>
                     <button><span class="button">01 Overview</span></button>
                     <button><span class="button">02 Internal Structure</span></button>
                     <button><span class="button">03 Surface Geology</span></button>
                 </div>
+
             </div>
 
 
