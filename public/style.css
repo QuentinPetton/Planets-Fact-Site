@@ -51,6 +51,7 @@ nav > ul > li >a {
 
 a {
     color: var(--white-color);
+    text-decoration: none;
 }
 
 
@@ -59,6 +60,7 @@ h1{
     font-size: 1.75rem;
     width: 100%;
 }
+
 
 h2{
     font-size: 5rem;
@@ -69,7 +71,7 @@ main {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 2rem;
+    margin-top: 10rem;
     margin-left: 7%;
     margin-right: 7%;
     gap: 1rem;
@@ -82,7 +84,7 @@ p{
 }
 
 .container-img {
-    grid-column: span 2;
+   grid-column: span 2;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -96,6 +98,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-left: 10rem;
 
 }
 .button-infos {
@@ -104,15 +107,29 @@ img{
     text-transform: uppercase;
 }
 
-.button-infos > span{
-    padding: 1rem;
+
+
+button {
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: var(--white-color);
+    margin: 0.2rem 0;
     border: var(--light-grey-color) solid 1px;
-    margin-top: 1rem;
+    padding: 0.7rem;
 }
 
-.button-infos > span:hover{
+button:hover{
+    background-color: var(--dark-grey-color);
+}
+
+button:active{
     background-color: var(--purple-color);
 }
+
+
 
 dl {
     display: flex;
