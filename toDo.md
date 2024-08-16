@@ -8,7 +8,15 @@
 
   [ ] Menu hamburger version mobile
   [ ] Disposition version mobile
+    [] Boutons du main passent en ligne et au dessus img
+    [] Titre planete + p centré
+    [] Infos sections en bloc
+
   [ ] Disposition version tablette 
+    [] Pas de wrap sur info bas, 4 onglet sur même ligne
+    [] Partie internal structure sur même ligne (et pas centré?)
+    [] Titre planète plus petit ainsi que description Paragraphe
+
 
   ## HTML
 
@@ -22,3 +30,6 @@
   ## JS DOM
 
   [ ] Garder status "active" sur bouton et navbar
+  [] une couleur atribuée par page, cad en active sur les boutons du main ainsi que dans menu
+
+  => un css par planète ?

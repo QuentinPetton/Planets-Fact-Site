@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 
     <link href="https://fonts.cdnfonts.com/css/spartan" rel="stylesheet">
+    <script src="/index.js" defer></script>
                 
 
     <title>Frontend Mentor | Planets fact site</title>
@@ -20,10 +21,16 @@
 <header>
     <nav>
         <h1><a href="#">THE PLANETS</a></h1>
+        <div id="burger-menu">
+            <span></span>
+          </div>
+          <div id="menu">
         <ul>
             <% for (const planet of data) { %>
-                <li><a href="/planet/<%= planet.name %>"><%=planet.name %></a></li>
+                <li><a href="/planet/<%= planet.name %>"><%=planet.name %></a><img class="chevron" src="/assets/icon-chevron.svg" alt="chevron"></li>
            <% } %>
         </ul>
+        </div>
+    
     </nav>
 </header>
