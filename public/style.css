@@ -13,6 +13,40 @@
     --blue-color: #2d68f0;
 }
 
+.mercury {
+    color: var(--turquoise-color);  
+}
+
+
+.venus {
+    color: var(--yellow-color);
+}
+
+.earth {
+    color: var(--purple-color);
+}
+
+.mars {
+    color: var(--light-red-color);
+}
+
+.jupiter {
+    color: var(--heavy-red-color);
+}
+
+.saturn {
+    color: var(--orange-color);
+}
+
+.uranus {
+    color: var(--green-color);
+}
+
+.neptune {
+    color: var(--blue-color);
+}
+
+
 html{
    
   background-color: var(--bg-color);
@@ -339,6 +373,7 @@ dd{
         opacity: 1;
         padding-top: 100px;
         background: rgba(0, 0, 0, 0.5);
+        background-image: url(./assets/background-stars.svg);
     }
     
     #menu li {
@@ -349,7 +384,7 @@ dd{
         color: #fff;
         display: block;
         font-size: 32px;
-        margin-bottom: 30px;
+   
     }
     
     ul {
@@ -363,7 +398,53 @@ dd{
         display: block;
     }
 
-  
+  .icon-mercury {
+    background-color: var(--turquoise-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-venus {
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-earth {
+    background-color: var(--purple-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-mars {
+    background-color: var(--light-red-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-jupiter {
+    background-color: var(--heavy-red-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-saturn {
+    background-color: var(--orange-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-uranus {
+    background-color: var(--green-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.icon-neptune {
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    padding: 15px;
+}
 
 
 }

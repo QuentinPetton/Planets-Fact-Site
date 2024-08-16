@@ -27,10 +27,18 @@
           <div id="menu">
         <ul>
             <% for (const planet of data) { %>
-                <li><a href="/planet/<%= planet.name %>"><%=planet.name %></a><img class="chevron" src="/assets/icon-chevron.svg" alt="chevron"></li>
-           <% } %>
+                <li class="<%= planet.name.toLowerCase() %>">
+                    <div class="icon-<%= planet.name.toLowerCase() %>"></div>
+                  <a href="/planet/<%= planet.name %>">
+                    <%= planet.name %>
+                  </a>
+                  <img class="chevron" src="/assets/icon-chevron.svg" alt="chevron">
+                </li>
+              <% } %>
         </ul>
         </div>
     
     </nav>
+
+    
 </header>

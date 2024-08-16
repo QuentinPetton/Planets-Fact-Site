@@ -6,7 +6,7 @@
 
  ## Responsive
 
-  [ ] Menu hamburger version mobile
+  [ X] Menu hamburger version mobile
   [ ] Disposition version mobile
     [] Boutons du main passent en ligne et au dessus img
     [] Titre planete + p centré
