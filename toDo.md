@@ -7,15 +7,15 @@
  ## Responsive
 
   [ X] Menu hamburger version mobile
-  [ ] Disposition version mobile
-    [] Boutons du main passent en ligne et au dessus img
-    [] Titre planete + p centré
-    [] Infos sections en bloc
+  [X] Disposition version mobile
+    [X] Boutons du main passent en ligne et au dessus img
+    [X] Titre planete + p centré
+    [X] Infos sections en bloc
 
-  [ ] Disposition version tablette 
-    [] Pas de wrap sur info bas, 4 onglet sur même ligne
-    [] Partie internal structure sur même ligne (et pas centré?)
-    [] Titre planète plus petit ainsi que description Paragraphe
+  [X] Disposition version tablette 
+    [X] Pas de wrap sur info bas, 4 onglet sur même ligne
+    [X] Partie internal structure sur même ligne (et pas centré?)
+    [X] Titre planète plus petit ainsi que description Paragraphe
 
 
   ## HTML
@@ -33,3 +33,7 @@
   [] une couleur atribuée par page, cad en active sur les boutons du main ainsi que dans menu
 
   => un css par planète ?
+
+  [] Un event listener qui prendra /assets/planet + dynamisme nom planète pour switcher au clic sur bouton
+  [] Un event listener nav bar qui prendra au click une border top + surbrillance  de la variable de la couleur de la planète
+  [] Revoir page home si possible fusionner page planets
