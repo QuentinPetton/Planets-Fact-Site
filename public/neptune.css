@@ -1,3 +1,11 @@
 .neptune {
     border-top: var(--blue-color) solid 3px;
 }
+
+.neptune > a {
+    color: white;
+}
+
+button:hover{
+    background-color:var(--blue-color);
+}

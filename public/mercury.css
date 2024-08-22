@@ -1,3 +1,11 @@
 .mercury {
     border-top: var(--turquoise-color) solid 3px;
 }
+
+.mercury > a {
+    color: white;
+}
+
+button:hover{
+    background-color:var(--turquoise-color);
+}

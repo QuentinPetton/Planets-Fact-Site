@@ -1,3 +1,10 @@
 .uranus {
     border-top: var(--green-color) solid 3px;
 }
+.uranus > a {
+    color: white;
+}
+
+button:hover{
+    background-color: var(--green-color);
+}

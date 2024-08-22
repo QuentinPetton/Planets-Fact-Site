@@ -1,3 +1,12 @@
 .earth {
     border-top: var(--purple-color) solid 3px;
 }
+
+.earth > a {
+    color: white;
+}
+
+
+button:hover{
+    background-color: var(--purple-color);
+}

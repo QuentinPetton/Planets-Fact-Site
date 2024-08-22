@@ -24,12 +24,25 @@
                 <span class =wiki> Source : <a href="<%= planet.overview.source %>">Wikipedia <img src="/assets/icon-source.svg" alt="icon-source-wikipedia"></a> </span>
                 </div>
                 <div class=button-infos>
-                    <button><span class="button overview">01 Overview</span></button>
-                    <button><span class="button internal">02 Internal Structure</span></button>
-                    <button><span class="button geology">03 Surface Geology</span></button>
+                    <button class="overview"><span class="button">01 Overview</span></button>
+                    <button class="internal"><span class="button">02 Internal Structure</span></button>
+                    <button class="geology"><span class="button">03 Surface Geology</span></button>
                 </div>
 
-         
+                <button class="test-hover">Hover me</button>
+
+                <style>
+                .test-hover {
+                    background-color: transparent;
+                    color: var(--white-color);
+                    border: var(--light-grey-color) solid 1px;
+                    padding: 0.7rem;
+                }
+                
+                .test-hover:hover {
+                    background-color: var(--light-grey-color);
+                }
+                </style>
 
 
             <dl>

@@ -107,30 +107,16 @@ li {
     padding-top: 0.8rem;
 }
 
-.mercury:hover {
-    border-top: var(--turquoise-color) solid 3px;
-}
-
-.earth:active{
-    border-top: #D83A34 solid 3px;
-}
-
-
 a {
     color: rgba(255, 255, 255, 0.753);
     text-decoration: none;
-}
-
-a:active {
-    color: var(--white-color);
 }
 
 h1{
     font-family: "Antonio", sans-serif;
     font-size: 1.75rem;
     width: 100%;
-    margin: 0 2rem;
-    
+    margin: 0 2rem; 
 }
 
 h2{
@@ -213,13 +199,12 @@ button {
     margin: 0.2rem 0;
     border: var(--light-grey-color) solid 1px;
     padding: 0.7rem;
+
 }
 
-button:hover{
-    background-color: red;
-}
 
-button:active{
+
+.button-infos > button:hover {
     background-color: var(--light-grey-color);
 }
 
@@ -248,6 +233,8 @@ dd{
     text-transform: uppercase;
     font-size: 2rem;
 }
+
+
 
 /* MEDIA QUERIES  */
 

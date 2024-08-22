@@ -1,3 +1,10 @@
 .venus {
     border-top: var(--yellow-color) solid 3px;
 }
+.venus > a {
+    color: white;
+}
+
+button:hover{
+    background-color: var(--yellow-color);
+}

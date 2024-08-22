@@ -1,3 +1,10 @@
 .saturn {
     border-top: var(--orange-color) solid 3px;
 }
+.saturn > a {
+    color: white;
+}
+
+button:hover{
+    background-color: var(--orange-color);
+}

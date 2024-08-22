@@ -1,3 +1,11 @@
 .jupiter {
     border-top: var(--heavy-red-color) solid 3px;
 }
+
+.jupiter > a {
+    color: white;
+}
+
+button:hover{
+    background-color: var(--heavy-red-color);
+}

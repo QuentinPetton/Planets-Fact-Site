@@ -29,12 +29,14 @@
 
   ## JS DOM
 
-  [ ] Garder status "active" sur bouton et navbar
-  [] une couleur atribuée par page, cad en active sur les boutons du main ainsi que dans menu
+  [X] Garder status "active" sur bouton et navbar
+  [X] une couleur atribuée par page, cad en active sur les boutons du main ainsi que dans menu
 
   => un css par planète ?
 
-  [] Un event listener qui prendra /assets/planet + dynamisme nom planète pour switcher au clic sur bouton
-  [] Un event listener nav bar qui prendra au click une border top + surbrillance  de la variable de la couleur de la planète
+  [X] Un event listener qui prendra /assets/planet + dynamisme nom planète pour switcher au clic sur bouton
+  [X] Un event listener nav bar qui prendra au click une border top + surbrillance  de la variable de la couleur de la planète
   [] Revoir page home si possible fusionner page planets
   [] Compléter Alt image
+  [] Ajout curseur au hover sur nav link
+  [] Ajout un hover sur button gris dans main

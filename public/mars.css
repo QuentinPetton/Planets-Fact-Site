@@ -1,3 +1,11 @@
 .mars {
     border-top: var(--light-red-color) solid 3px;
 }
+
+.mars > a {
+    color: white;
+}
+
+button:hover{
+    background-color: var(--light-red-color);
+}
