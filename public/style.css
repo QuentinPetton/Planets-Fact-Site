@@ -176,6 +176,10 @@ p{
    align-items: center;
 }
 
+.container-img > .hidden{
+    display: none;
+}
+
 img{
     max-width: 60%;
 }

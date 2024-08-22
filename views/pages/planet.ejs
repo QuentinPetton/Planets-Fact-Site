@@ -4,7 +4,9 @@
         <main>
 
             <div class="container-img">
-            <img src="<%= planet.images.internal %>" alt="">
+            <img class="main-img" id="planet-img" src="<%= planet.images.planet %>" alt="">
+            <img class="main-img hidden" id="internal-img" src="<%= planet.images.internal %>" alt="">
+            <img class="main-img hidden" id="geology-img" src="<%= planet.images.geology %>" alt="">
             </div>
 
            
@@ -15,9 +17,9 @@
                 <span class =wiki> Source : <a href="<%= planet.overview.source %>">Wikipedia <img src="/assets/icon-source.svg" alt="icon-source-wikipedia"></a> </span>
                 </div>
                 <div class=button-infos>
-                    <button><span class="button">01 Overview</span></button>
-                    <button><span class="button">02 Internal Structure</span></button>
-                    <button><span class="button">03 Surface Geology</span></button>
+                    <button><span class="button overview">01 Overview</span></button>
+                    <button><span class="button internal">02 Internal Structure</span></button>
+                    <button><span class="button geology">03 Surface Geology</span></button>
                 </div>
 
          

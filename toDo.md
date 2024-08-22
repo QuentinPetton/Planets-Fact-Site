@@ -37,3 +37,4 @@
   [] Un event listener qui prendra /assets/planet + dynamisme nom planète pour switcher au clic sur bouton
   [] Un event listener nav bar qui prendra au click une border top + surbrillance  de la variable de la couleur de la planète
   [] Revoir page home si possible fusionner page planets
+  [] Compléter Alt image
