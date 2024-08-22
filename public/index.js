@@ -7,12 +7,13 @@ burgerMenu.addEventListener('click',function(){
 });
 
 
+
 //todo Quand je clique sur "internal structure,
 // je change son contenu  text description et wiki
 //je change couleur en actif
-//je change image
 
 
+//[X]je change image
 //gestion bouton 
 const buttonOverview = document.querySelector(".overview");
 const buttonInternal = document.querySelector(".internal");

@@ -107,9 +107,14 @@ li {
     padding-top: 0.8rem;
 }
 
-li:active {
+.mercury:hover {
     border-top: var(--turquoise-color) solid 3px;
 }
+
+.earth:active{
+    border-top: #D83A34 solid 3px;
+}
+
 
 a {
     color: rgba(255, 255, 255, 0.753);
@@ -211,11 +216,11 @@ button {
 }
 
 button:hover{
-    background-color: var(--dark-grey-color);
+    background-color: red;
 }
 
 button:active{
-    background-color: var(--purple-color);
+    background-color: var(--light-grey-color);
 }
 
 dl {
