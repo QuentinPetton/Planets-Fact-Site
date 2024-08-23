@@ -2,7 +2,7 @@ const data = require (`../data/data.json`);
 
 
 const homePage = (req,res) => {
-    res.redirect('/planet/mercury');
+    res.redirect('/planet/earth');
 }
 
 const planet = (req,res) => {
