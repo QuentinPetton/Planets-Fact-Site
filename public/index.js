@@ -51,6 +51,7 @@ buttonInternal.addEventListener('click', function(){
   imagePlanetImg.classList.add("hidden");
   imageGeologyImg.classList.add("hidden");
   imageInternalImg.classList.remove("hidden");
+  
 
   contentOverview.classList.add("hidden");
   contentGeology.classList.add("hidden");
@@ -69,7 +70,7 @@ buttonGeology.addEventListener('click', function(){
 
   contentOverview.classList.add("hidden");
   contentInternal.classList.add("hidden");
-  contentGeology.classList.add("hidden");
+  contentGeology.classList.remove("hidden");
   
   buttonOverview.classList.remove("bg");
   buttonInternal.classList.remove("bg");
