@@ -171,6 +171,10 @@ p{
     display: none;
 }
 
+.description > .hidden {
+    display: none;
+} 
+
 img{
     max-width: 60%;
 }
@@ -200,12 +204,6 @@ button {
     border: var(--light-grey-color) solid 1px;
     padding: 0.7rem;
 
-}
-
-
-
-.button-infos > button:hover {
-    background-color: var(--light-grey-color);
 }
 
 dl {

@@ -32,6 +32,8 @@
   [X] Garder status "active" sur bouton et navbar
   [X] une couleur atribuée par page, cad en active sur les boutons du main ainsi que dans menu
 
+  [] Changer text description au clic eventlistener
+
   => un css par planète ?
 
   [X] Un event listener qui prendra /assets/planet + dynamisme nom planète pour switcher au clic sur bouton

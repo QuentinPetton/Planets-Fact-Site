@@ -19,7 +19,9 @@
            
                 <div class="description">
                 <h2><%= planet.name %></h2>
-                <p><%= planet.overview.content %></p>
+                <p id="planet-content"><%= planet.overview.content %></p>
+                <p class="hidden" id="structure-content"><%= planet.structure.content %></p>
+                <p class="hidden" id="geology-content"><%= planet.geology.content %></p>
 
                 <span class =wiki> Source : <a href="<%= planet.overview.source %>">Wikipedia <img src="/assets/icon-source.svg" alt="icon-source-wikipedia"></a> </span>
                 </div>
@@ -28,22 +30,6 @@
                     <button class="internal"><span class="button">02 Internal Structure</span></button>
                     <button class="geology"><span class="button">03 Surface Geology</span></button>
                 </div>
-
-                <button class="test-hover">Hover me</button>
-
-                <style>
-                .test-hover {
-                    background-color: transparent;
-                    color: var(--white-color);
-                    border: var(--light-grey-color) solid 1px;
-                    padding: 0.7rem;
-                }
-                
-                .test-hover:hover {
-                    background-color: var(--light-grey-color);
-                }
-                </style>
-
 
             <dl>
                 <div>
