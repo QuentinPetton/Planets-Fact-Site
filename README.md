@@ -49,6 +49,7 @@ Users should be able to:
 - CSS Grid
 - Javascript
 - Dynamic page
+- NodeJS
 - BDD
 - EJS
 
