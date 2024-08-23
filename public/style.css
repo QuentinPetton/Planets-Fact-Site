@@ -15,6 +15,7 @@
 
 .mercury {
     color: var(--turquoise-color);  
+ 
 }
 
 
@@ -52,7 +53,7 @@ html{
   background-color: var(--bg-color);
   background-image: url(./assets/background-stars.svg);
   color: var(--white-color);
-  height: 100dvh;
+  height: 100vh;
   font-family: "Antonio", sans-serif;
 
 }

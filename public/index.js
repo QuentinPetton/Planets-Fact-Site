@@ -40,6 +40,11 @@ buttonOverview.addEventListener('click', function(){
   contentGeology.classList.add("hidden");
   contentOverview.classList.remove("hidden");
 
+  buttonInternal.classList.remove("bg");
+  buttonGeology.classList.remove("bg");
+  buttonOverview.classList.toggle("bg");
+
+
 });
 
 buttonInternal.addEventListener('click', function(){
@@ -50,6 +55,10 @@ buttonInternal.addEventListener('click', function(){
   contentOverview.classList.add("hidden");
   contentGeology.classList.add("hidden");
   contentInternal.classList.remove("hidden");
+
+  buttonOverview.classList.remove("bg");
+  buttonGeology.classList.remove("bg");
+  buttonInternal.classList.toggle("bg");
 });
 
 
@@ -62,5 +71,9 @@ buttonGeology.addEventListener('click', function(){
   contentInternal.classList.add("hidden");
   contentGeology.classList.remove("hidden");
   
+  buttonOverview.classList.remove("bg");
+  buttonInternal.classList.remove("bg");
+  buttonGeology.classList.toggle("bg");
+
 });
 //

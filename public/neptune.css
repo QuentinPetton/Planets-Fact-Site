@@ -7,5 +7,9 @@
 }
 
 button:hover{
-    background-color:var(--blue-color);
+    background-color:var(--light-grey-color);
+}
+
+.bg {
+    background-color: var(--blue-color);
 }

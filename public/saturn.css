@@ -6,5 +6,9 @@
 }
 
 button:hover{
+    background-color:var(--light-grey-color);
+}
+
+.bg {
     background-color: var(--orange-color);
 }
