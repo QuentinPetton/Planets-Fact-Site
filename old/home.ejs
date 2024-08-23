@@ -1,34 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <%- include("../partials/head") %>
+
+        <title>Frontend Mentor | Planets fact site</title>
+    </head>
+    <body>
+
 <%- include('../partials/header'); -%>
 
-    <body>
+    
         <main>
 
             <div class="container-img">
             <img src="/assets/planet-mercury.svg" alt="">
             </div>
 
-            <div class="container-infos">
+            <div class="description">
                 <h2>Mercury</h2>
 
-                <p>
-
-                    
+                <p id="planet-content">
                     Mercury is the smallest planet in the Solar System and the closest
                     to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
                     shortest of all the Sun's planets. Mercury is one of four terrestrial
                     planets in the Solar System, and is a rocky body like Earth.</p>
 
-                <span>
-                    Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Mercury_(planet) -->
-                </span>
-
-                <div class=button-infos>
-                    <span class="button">01 Overview</span>
-                    <span class="button">02 Internal Structure</span>
-                    <span class="button">03 Surface Geology</span>
-                </div>
+        
+                <span class =wiki> Source : <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia <img src="/assets/icon-source.svg" alt="icon-source-wikipedia"></a> </span>
             </div>
 
+
+                <div class=button-infos>
+                    <button class="overview"><span class="button">01 Overview</span></button>
+                    <button class="internal"><span class="button">02 Internal Structure</span></button>
+                    <button class="geology"><span class="button">03 Surface Geology</span></button>
+                </div>
 
             <dl>
                 <div>
@@ -51,7 +57,8 @@
 
 
         </main>
-    </body>
 
-    </html>
-    <%- include('../partials/footer'); -%>
+
+        <%- include('../partials/footer'); -%>
+    </body>
+        </html>
